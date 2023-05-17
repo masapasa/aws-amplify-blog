@@ -88,6 +88,7 @@ export default function Post({ post }) {
       <p className='text-sm font-light my-4'>By {post.username}</p>
       <div className='mt-8'>
         <ReactMarkDown className='prose' children={post.content} />
+        
       </div>
 
       <div>
